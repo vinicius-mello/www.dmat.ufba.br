@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Prof. Vinícius</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+</body>
+<script>
+let body = document.getElementsByTagName("body")[0];
+let md = marked(`
+# Prof. Vinícius
+<div style="text-align: right"> <vinicius.mello@ufba.br> </div>
+
+
+------------------------
+
+## Ensino
+
+  - [Geometria Analítica](GA.html)
+  - [Álgebra Linear](AL.html)
+
+`);
+body.innerHTML = md;
+</script>
+</html>

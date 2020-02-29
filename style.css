@@ -1,0 +1,26 @@
+html {
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  color: white;
+}
+a:active {
+  color: white;
+  font-style: italic;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+  font-weight: bold;
+}
+body {
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 45px;
+      font-family: 'Oxanium', serif;
+}
